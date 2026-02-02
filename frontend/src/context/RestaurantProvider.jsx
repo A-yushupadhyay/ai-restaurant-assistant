@@ -1,4 +1,4 @@
-import { RestaurantContext } from "./RestaurantContext";
+import { RestaurantContext } from "./RestaurantContext.js";
 
 export function RestaurantProvider({ children }) {
   const restaurant = {
