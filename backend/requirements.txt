@@ -1,8 +1,10 @@
 fastapi
-uvicorn
+uvicorn[standard]
 pydantic
 python-dotenv
-openai
+python-multipart
+boto3
+openai==0.28.0
 
 # Optional (OCR): install these to enable image/PDF menu OCR
 # Note: `pdf2image` requires the `poppler` system package (install via
