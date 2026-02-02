@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Paneer Tikka",
+    "price": 220,
+    "diet": "vegetarian",
+    "taste": ["spicy"],
+    "health_flags": ["diabetic-friendly", "low-oil"],
+    "ingredients": ["paneer", "spices", "curd"]
+  },
+  {
+    "id": 2,
+    "name": "Veg Hakka Noodles",
+    "price": 180,
+    "diet": "vegetarian",
+    "taste": ["spicy"],
+    "health_flags": [],
+    "ingredients": ["noodles", "vegetables", "soy sauce"]
+  },
+  {
+    "id": 3,
+    "name": "Butter Paneer Masala",
+    "price": 260,
+    "diet": "vegetarian",
+    "taste": ["mild"],
+    "health_flags": [],
+    "ingredients": ["paneer", "butter", "cream"]
+  },
+  {
+    "id": 4,
+    "name": "Veg Clear Soup",
+    "price": 120,
+    "diet": "vegetarian",
+    "taste": ["mild"],
+    "health_flags": ["diabetic-friendly", "low-oil"],
+    "ingredients": ["vegetables", "pepper"]
+  }
+]

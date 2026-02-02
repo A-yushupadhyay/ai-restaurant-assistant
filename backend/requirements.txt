@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+openai
+
+# Optional (OCR): install these to enable image/PDF menu OCR
+# Note: `pdf2image` requires the `poppler` system package (install via
+# your OS package manager). `pytesseract` requires the Tesseract binary.
+Pillow
+pytesseract
+pdf2image
+
