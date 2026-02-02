@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8000/api/chat";
+const API_URL = import.meta.env.VITE_API_URL;
 
 export async function sendMessage({ message, sessionId }) {
   const payload = {
@@ -6,7 +6,7 @@ export async function sendMessage({ message, sessionId }) {
     session_id: sessionId || null,
   };
 
-  const res = await fetch(API_URL, {
+  const res = await fetch(`${API_URL}/api/chat`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
