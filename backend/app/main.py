@@ -5,7 +5,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173" , "https://ai-restaurant-assistant-hs0j.onrender.com"],
+    allow_origins=["http://localhost:5173" , "https://ai-restaurant-assistant-5tecgbxo8.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
